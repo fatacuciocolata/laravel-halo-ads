@@ -2,7 +2,7 @@
 
 ## Halo ads
 
-Halo Ads is a simple application that shows ads filtered by the latest added, can also be filtered by category or by keywords. For better understanding as Carbon function says (difference for humans) the posted date is being shown in the format "one hour ago".
+Halo Ads is a simple application that shows ads filtered by the latest added, can also be filtered by category or by keywords. For better understanding as [Carbon](https://carbon.nesbot.com/docs/) function says (difference for humans) the posted date is being shown in the format "one hour ago".
 
 Users can post ads just only if they are logged in, log in feature uses Laravel auth. After adding ads, user can edit or delete
 them. Requirements for adding a new ad:
@@ -16,4 +16,4 @@ On the ad page (show method), other ads by same author are being displayed to th
 
 ### Database
 
-Halo ads is using SQLite as database, [documentation](https://www.sqlite.org/index.html).
+Halo ads is using [SQLite](https://www.sqlite.org/index.html) as database.
