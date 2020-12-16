@@ -14,7 +14,11 @@ them. Requirements for adding a new ad:
 -   price
 -   image (optional)
 
+![post new ad](../master/ss/post_new_Ad.png)
+
 On the ad page (show method), other ads by same author are being displayed to the user.
+
+![post new ad](../master/ss/single-ad.png)
 
 ### Database
 
