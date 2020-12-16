@@ -4,6 +4,8 @@
 
 Halo Ads is a simple application that shows ads filtered by the latest added, can also be filtered by category or by keywords. For better understanding as [Carbon](https://carbon.nesbot.com/docs/) function says (difference for humans) the posted date is being shown in the format "one hour ago".
 
+![homepage](../master/ss/index.png)
+
 Users can post ads just only if they are logged in, log in feature uses Laravel auth. After adding ads, user can edit or delete
 them. Requirements for adding a new ad:
 
