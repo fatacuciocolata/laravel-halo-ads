@@ -1,0 +1,370 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #f5f8ff;
+    font-family: "Titillium Web", sans-serif;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none !important;
+    color: #000;
+}
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+.container h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.breadcrumb {
+    background: #fff;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    border-radius: 0;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background: #2d3748;
+    margin-bottom: 30px;
+}
+.navbar ul li a {
+    color: #fff;
+}
+li.dropdown {
+    position: relative;
+    display: inline-block;
+}
+ul.dropdown-content {
+    width: 150px;
+    display: none;
+    position: absolute;
+    top: 40px;
+    background: #404b5e;
+    z-index: 1;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+        0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+li.dropdown:hover ul.dropdown-content {
+    display: block;
+}
+ul.dropdown li:hover {
+    background: #4b586d;
+}
+ul.dropdown li a {
+    color: #fff;
+    display: block;
+}
+.searchbar .search {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.searchbar .search input {
+    width: 100%;
+    padding: 6px;
+    border: 0;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+.searchbar .search input:focus {
+    outline: none;
+}
+.searchbar .search button {
+    padding: 10px 30px;
+    border: 0;
+    transition: all 0.3s ease;
+    font-weight: bold;
+    background: #34d399;
+    color: #fff;
+}
+textarea {
+    height: 230px !important;
+}
+input[type="text"],
+textarea {
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+input[type="text"]:focus,
+textarea:focus {
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+}
+ul.nav-left li a.logo {
+    font-family: "Sansita Swashed", cursive;
+    color: #81e6d9;
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+}
+ul.nav-right {
+    display: flex;
+    justify-content: space-between;
+}
+ul.nav-right li.add {
+    margin-right: 10px;
+    background: #fff;
+    transition: all 0.3s ease;
+    border-radius: 3px;
+}
+ul.nav-right li.add a {
+    color: #000;
+}
+ul.nav-right li.add:hover {
+    background: #2d3748;
+}
+ul.nav-right li.add a:hover {
+    color: #fff;
+}
+.boxes {
+    column-count: 3;
+    column-gap: 3;
+}
+.box .panel {
+    break-inside: avoid;
+    padding: 5px;
+    background: #fff;
+    margin-bottom: 15px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+.box .panel .panel-cont {
+    padding: 10px;
+    border-radius: 10px;
+}
+.box .image img {
+    /* display: block; */
+    width: 100%;
+}
+.box .title h4 {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.box .location {
+    color: #93a7ca;
+    font-size: 12px;
+    margin-top: 10px;
+    font-weight: 400;
+    /* color: #aaa; */
+}
+.box .price {
+    font-size: 20px;
+    font-weight: bold;
+}
+.create-ad {
+    margin-top: 30px;
+}
+.create-ad h3 {
+    margin-bottom: 20px;
+}
+.wrap {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.wrap .right {
+    margin-left: 15px;
+}
+.ad {
+    width: 100%;
+}
+.ad .ad-image {
+    width: 100%;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+.ad .ad-image img {
+    width: 100%;
+}
+.ad .ad-image img {
+    background: #fff;
+    padding: 20px;
+}
+.ad-description {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+.ad-description .description {
+    border-bottom: 1px solid #eee;
+}
+.ad-description .description span.price {
+    font-size: 30px;
+    font-weight: bold;
+}
+.ad-description .description .text {
+    margin-top: 30px;
+}
+.ad-description .description .text h4 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.ad-description .info {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.ad-description .info .posted span {
+    font-size: 12px;
+    color: #aaa;
+    font-style: italic;
+}
+
+.user,
+.user-ads {
+    background: #fff;
+    padding: 20px;
+    height: fit-content;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+.user .content {
+    display: flex;
+    /* justify-content: space-between; */
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.user .ads {
+    margin-top: 15px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    font-size: 13px;
+    border-bottom: 2px solid #34393f;
+}
+.user-ads .desc .title {
+    font-weight: bold;
+    font-size: 13px;
+}
+.user-ads .desc .price {
+    font-size: 13px;
+    /* display: flex;
+    align-items: center;
+    position: absolute;
+    top: 53px; */
+}
+.user-ads .ad-box {
+    display: flex;
+    margin-top: 20px;
+}
+.user-ads .ad-box .image {
+    width: 70px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+.user-ads .ad-box .image img {
+    width: 100%;
+}
+.user-ads .desc {
+    width: 130px;
+    position: relative;
+}
+.user-ads .title {
+    font-weight: bold;
+}
+.user .left {
+    width: 50px;
+    margin-right: 15px;
+}
+.user .avatar img {
+    width: 100%;
+    border-radius: 50px;
+}
+.user .saleman {
+    font-weight: bold;
+}
+.user .username {
+    font-size: 17px;
+    font-weight: bold;
+}
+.user .since {
+    font-size: 12px;
+    color: #aaa;
+}
+.user .message button,
+.user .call button {
+    width: 100%;
+    margin-top: 5px;
+}
+.user .call button {
+    border: 2px solid #34393f;
+}
+.actions {
+    display: flex;
+    justify-content: flex-start;
+}
+.actions button {
+    padding: 5px 20px;
+    border: 0;
+    margin-top: 10px;
+    margin-right: 10px;
+    font-size: 13px;
+    transition: 0.3s;
+}
+.actions button.edit {
+    background: #27b376;
+}
+.actions button.edit:hover {
+    background: #049954;
+}
+.actions button.edit a {
+    color: #fff;
+}
+.actions button.edit a {
+    text-decoration: none;
+}
+.actions button.delete {
+    background: #e95640;
+    color: #fff;
+}
+.actions button.delete:hover {
+    background: #e33e33;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.page-item.active .page-link {
+    background: #f5f8ff;
+    border-color: #e4e7ee;
+    color: #9a9a9a;
+}
+.personal-ads {
+    display: flex;
+    justify-content: left;
+    padding: 5px;
+    background: #fff;
+    margin-bottom: 15px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+.personal-ads .image {
+    width: 20%;
+}
+.personal-ads .image img {
+    width: 100%;
+}
+.personal-ads .info {
+    position: relative;
+}
+.personal-ads .info .actions {
+    position: relative;
+    bottom: 0;
+}
